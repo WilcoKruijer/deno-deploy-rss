@@ -1,0 +1,17 @@
+{
+  "deno.enable": true,
+  "deno.unstable": false,
+  "deno.lint": true,
+  "deno.suggest.autoImports": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  },
+  "editor.tabSize": 2,
+
+  "deno.suggest.imports.hosts": {
+    "https://deno.land/": true
+  },
+
+  "editor.formatOnSave": true,
+  "errorLens.messageEnabled": false
+}
